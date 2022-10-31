@@ -1,0 +1,68 @@
+body{
+    background-color: aqua;
+}
+h1, h4{
+   text-align: center;
+   margin-top: 50px;
+   color: rgb(33, 43, 43);
+
+}
+button{
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    left: 46%;
+    font-size: x-large;
+    width: 50px;
+    background-color: rgb(70, 51, 51);
+    color: rgb(236, 210, 210);
+    border-radius: 15px;
+}
+.grid_container{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;  
+}
+
+.grid_container .iteam{
+   width: 100px;
+   height: 40px;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+    
+}
+.iteam:first-child, 
+.iteam:nth-child(2), 
+.iteam:nth-child(3){
+    border-top: none;
+}
+.iteam:nth-child(3n+1){
+    border-left: none;
+
+}
+.iteam:nth-child(3n+3){
+    border-right: none;
+
+}
+.iteam:last-child, 
+.iteam:nth-child(8), 
+.iteam:nth-child(7){
+    border-bottom: none;
+}
+
+@media screen and (max-width: 900px) {
+    button{
+        left:36%;
+    }
+}
+
+
+
+
+
+
