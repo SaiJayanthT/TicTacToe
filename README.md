@@ -1,2 +1,2 @@
 # TicTacToe
-Tic Tac Toe Game - https://saijayanth.github.io/TicTacToeGame/
+Tic Tac Toe Game - https://saijayantht.github.io/TicTacToeGame/
